@@ -1,1 +1,2 @@
-# FronEnd Masters Course
+# MimiCom24 - Server 
+## Digital Ocean 
