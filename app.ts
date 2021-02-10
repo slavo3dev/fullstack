@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("React Lion - WebSite ( React / Node / SQL)");
+  res.send("React Lion - WebSite ( React / Node / SQL) - all TS");
 });
 
 app.listen(port, () => {
