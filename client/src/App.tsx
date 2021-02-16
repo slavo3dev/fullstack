@@ -7,8 +7,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>ReactLion</p>
-        <p>We are comming soon</p>
+        <p>
+          ReactLion
+          <br />
+          Coming Soon
+        </p>
         <a className="App-link" href="https://slavo3.com" target="_blank">
           Slavo3
         </a>
