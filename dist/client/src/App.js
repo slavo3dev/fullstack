@@ -7,19 +7,14 @@ const react_1 = __importDefault(require("react"));
 const logo_svg_1 = __importDefault(require("./logo.svg"));
 require("./App.css");
 function App() {
-    return (<div className="App">
-      <header className="App-header">
-        <img src={logo_svg_1.default} className="App-logo" alt="logo"/>
-        <p>
-          ReactLion
-          <br />
-          Coming Soon
-        </p>
-        <a className="App-link" href="https://slavo3.com" target="_blank">
-          Slavo3
-        </a>
-      </header>
-    </div>);
+    return (react_1.default.createElement("div", { className: "App" },
+        react_1.default.createElement("header", { className: "App-header" },
+            react_1.default.createElement("img", { src: logo_svg_1.default, className: "App-logo", alt: "logo" }),
+            react_1.default.createElement("p", null,
+                "ReactLion",
+                react_1.default.createElement("br", null),
+                "Coming Soon"),
+            react_1.default.createElement("a", { className: "App-link", href: "https://slavo3.com", target: "_blank" }, "Slavo3"))));
 }
 exports.default = App;
 //# sourceMappingURL=App.js.map
