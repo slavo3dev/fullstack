@@ -48,7 +48,7 @@ class DesktopContainer extends Component {
             style={{ minHeight: 700, padding: "1em 0em" }}
             vertical>
             <Menu
-              fixed={fixed ? "top" : null}
+              fixed={fixed ? "top" : undefined}
               inverted={!fixed}
               pointing={!fixed}
               secondary={!fixed}
@@ -96,7 +96,7 @@ class MobileContainer extends Component {
     const { sidebarOpened } = this.state;
 
     return (
-      <Media as={Sidebar.Pushable} at="mobile">
+      <Media at="mobile">
         <Sidebar.Pushable>
           <Sidebar
             as={Menu}
@@ -147,7 +147,7 @@ class MobileContainer extends Component {
   }
 }
 
-const ResponsiveContainer = ({ children }) => (
+const ResponsiveContainer = ({ children }: any) => (
   /* Heads up!
    * For large applications it may not be best option to put all page into these containers at
    * they will be rendered twice for SSR.
