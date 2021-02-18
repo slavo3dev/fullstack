@@ -45,7 +45,7 @@ class DesktopContainer extends Component {
           <Segment
             inverted
             textAlign="center"
-            style={{ minHeight: 700, padding: "1em 0em" }}
+            style={{ minHeight: 400, padding: "1em 0em" }}
             vertical>
             <Menu
               fixed={fixed ? "top" : undefined}
@@ -59,7 +59,6 @@ class DesktopContainer extends Component {
                 </Menu.Item>
                 <Menu.Item as="a">Work</Menu.Item>
                 <Menu.Item as="a">Company</Menu.Item>
-                <Menu.Item as="a">Careers</Menu.Item>
                 <Menu.Item position="right">
                   <Button as="a" inverted={!fixed}>
                     Log in
@@ -110,7 +109,6 @@ class MobileContainer extends Component {
             </Menu.Item>
             <Menu.Item as="a">Work</Menu.Item>
             <Menu.Item as="a">Company</Menu.Item>
-            <Menu.Item as="a">Careers</Menu.Item>
             <Menu.Item as="a">Log in</Menu.Item>
             <Menu.Item as="a">Sign Up</Menu.Item>
           </Sidebar>
@@ -165,7 +163,7 @@ const Home = () => (
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as="h3" style={{ fontSize: "2em" }}>
-              We Help Companies and Companions
+              We Help Companies and Start-Ups
             </Header>
             <p style={{ fontSize: "1.33em" }}>
               We can give your company superpowers to do things that they never

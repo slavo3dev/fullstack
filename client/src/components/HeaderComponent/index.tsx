@@ -6,7 +6,7 @@ export default function HeaderComponent({ mobile }: { mobile: boolean }) {
     <Container text>
       <Header
         as="h1"
-        content="Imagine-a-Company"
+        content="React Lion"
         inverted
         style={{
           fontSize: mobile ? "2em" : "4em",
@@ -17,12 +17,12 @@ export default function HeaderComponent({ mobile }: { mobile: boolean }) {
       />
       <Header
         as="h2"
-        content="Do whatever you want when you want to."
+        content="Do whatever You want to DO"
         inverted
         style={{
           fontSize: mobile ? "1.5em" : "1.7em",
           fontWeight: "normal",
-          marginTop: mobile ? "0.5em" : "1.5em",
+          marginTop: mobile ? "0.5em" : "1em",
         }}
       />
       <Button primary size="huge">
