@@ -1,9 +1,10 @@
 import React from "react";
+import EventApp from "../../components/app/EventApp";
 
 const Home = () => {
   return (
     <div>
-      <h1>React Lion</h1>
+      <EventApp />
     </div>
   );
 };
