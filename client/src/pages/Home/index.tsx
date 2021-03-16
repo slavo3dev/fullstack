@@ -1,12 +1,10 @@
 import React from "react";
 import EventApp from "../../components/app/EventApp";
 
-const Home = () => {
+export const Home = () => {
   return (
     <div>
       <EventApp />
     </div>
   );
 };
-
-export default Home;

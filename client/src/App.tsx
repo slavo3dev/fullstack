@@ -1,7 +1,10 @@
 import React from "react";
-import Home from "./pages/Home";
+import { Home, ComingSoon } from "./pages";
 
 function App() {
+  const cSoon = <ComingSoon />;
+
+  console.log("ComingSoon", cSoon);
   return <Home />;
 }
 
