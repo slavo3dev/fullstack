@@ -2,10 +2,9 @@ import React from "react";
 import { Home, ComingSoon } from "./pages";
 
 function App() {
-  const cSoon = <ComingSoon />;
+  const isNotReady = true;
 
-  console.log("ComingSoon", cSoon);
-  return <Home />;
+  return isNotReady ? <ComingSoon /> : <Home />;
 }
 
 export default App;

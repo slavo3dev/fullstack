@@ -8,8 +8,9 @@ const react_dom_1 = __importDefault(require("react-dom"));
 require("./index.css");
 const App_1 = __importDefault(require("./App"));
 const reportWebVitals_1 = __importDefault(require("./reportWebVitals"));
+require("semantic-ui-css/semantic.min.css");
 react_dom_1.default.render(react_1.default.createElement(react_1.default.StrictMode, null,
-    react_1.default.createElement(App_1.default, null)), document.getElementById('root'));
+    react_1.default.createElement(App_1.default, null)), document.getElementById("root"));
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
