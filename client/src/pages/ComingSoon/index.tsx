@@ -1,10 +1,24 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import Preloader from "./components/Preloader/Preloader";
+import Timer from "./components/Countdown/Timer";
+import Optin from "./components/Optin/Optin";
 
-export const ComingSoon = () => {
+import "./styles.css";
+
+function ComingSoon() {
   return (
-    <div>
-      <h1>React Lion</h1>
-      <h4>Create FitCamp, BootCamp... or any sport event</h4>
+    <div className="App">
+      <div className="container">
+        <h1>
+          Website
+          <br />
+          Coming Soon
+        </h1>
+        <Timer />
+        <Optin />
+        <Preloader />
+      </div>
     </div>
   );
-};
+}
